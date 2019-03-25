@@ -123,11 +123,15 @@
                                 <items>
                                     <barButtonItem title="Edit" id="bT8-FG-6c1">
                                         <connections>
-                                            <action selector="editBarButtonPressed:" destination="B3S-dI-ulj" id="epz-sd-JPu"/>
+                                            <action selector="editBarButtonPressed:" destination="B3S-dI-ulj" id="bUl-c6-kFO"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="0hU-zr-Jes"/>
-                                    <barButtonItem systemItem="add" id="sWV-pM-By7"/>
+                                    <barButtonItem systemItem="add" id="sWV-pM-By7">
+                                        <connections>
+                                            <action selector="addBarButtonPressed:" destination="B3S-dI-ulj" id="HdE-TR-XxY"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
